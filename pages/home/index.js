@@ -1,9 +1,11 @@
 import Header from "../../Components/Header";
+import CategoryHome from "../../Components/HomeComponent/CategoryHome";
 
 const index = () => {
     return (
-        <div> 
+        <div>
             <h1>This is Home</h1>
+            <CategoryHome />
         </div>
     );
 };
