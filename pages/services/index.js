@@ -1,10 +1,8 @@
-import Header from "../../Components/Header";
-
- 
+import Header from '../../Components/Header';
 
 const index = () => {
     return (
-        <div>
+        <div className="text-gray-700">
             <h1>This is Services</h1>
         </div>
     );

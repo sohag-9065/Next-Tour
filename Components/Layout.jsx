@@ -1,15 +1,14 @@
-import Footer from "./Footer";
-import Header from "./Header";
+import Footer from './Footer';
+import Header from './Header';
 
-
-const Layout  = ({ children }) => {
+const Layout = ({ children }) => {
     return (
         <>
-          <Header />
-          <main>{children}</main>
-          <Footer />
+            <Header />
+            <main className="bg-white">{children}</main>
+            <Footer />
         </>
-      );
+    );
 };
 
-export default Layout ;
+export default Layout;
