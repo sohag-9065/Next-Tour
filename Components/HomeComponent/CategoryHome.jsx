@@ -4,7 +4,7 @@ const CategoryHome = () => {
             <h1 className="mb-5 text-3xl font-bold text-blue-500 mt-14">
                 Booking Items
             </h1>
-            <div className="grid grid-cols-3 gap-8 text-gray-700">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700">
                 <div className="border border-blue-500 rounded-none shadow-lg shadow-blue-500/20 card bg-blue-50/50">
                     <figure>
                         <img

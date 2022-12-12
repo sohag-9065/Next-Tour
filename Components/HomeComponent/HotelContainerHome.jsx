@@ -4,7 +4,7 @@ import example from '../../public/assets/example.jpg';
 
 const HotelContainer = () => {
     return (
-        <div className="grid h-screen place-items-center max-w-[1140px] mx-auto">
+        <div className="grid h-[70vh] place-items-center max-w-[1140px] mx-auto">
             <div>
                 <h1 className="mb-5 text-3xl font-bold text-left text-blue-500">
                     Hotels
